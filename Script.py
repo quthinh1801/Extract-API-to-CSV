@@ -58,7 +58,7 @@ api_df.to_csv('Output_Alex_2.csv', index = True) #Import to csv
 
 
 '''
-Question 2:
+Question 3:
 Write a program to create an index/ id column on csv from 1 to 698.
 '''
 category_groupby = api_df.groupby("Category").size().to_frame('Count').reset_index() #Group by Category
